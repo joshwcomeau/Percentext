@@ -15,14 +15,14 @@ Percentext uses font-size and letter-spacing to ensure a perfect fit, without an
 
   <blockquote>
     Javascript:
-    $("#title").percentext({letterSpacing: -4});
-    $("#title_caption").percentext({width: 40, letterSpacing: -2});
+    <p>$("#title").percentext({letterSpacing: -4});<br>
+    $("#title_caption").percentext({width: 40, letterSpacing: -2});</p>
 
     CSS:
-    #title_caption {
+    <p>#title_caption {
       position: absolute;
       left: 11.7%;
-    }
+    }</p>
   </blockquote>
 
 Pretty cool, right?
