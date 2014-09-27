@@ -13,17 +13,21 @@ I am not the first person to think of this; FitText has been around for a while,
 
 Percentext uses font-size and letter-spacing to ensure a perfect fit, without any fiddling. By default, it takes up 100% of the width, but it can be customized to take up a smaller percentage. For example, check out the header on <a href="http://www.percentext.com">the Percentext site</a> - The words 'Allow me to introduce' sit perfectly positioned between the 'P' and 't' of Percentext. You can resize the window, and the words stay exactly where they should. To accomplish this effect, all I did was this:
 
+  <p>Javascript:
   <blockquote>
-    Javascript:
+    
     <p>$("#title").percentext({letterSpacing: -4});<br>
     $("#title_caption").percentext({width: 40, letterSpacing: -2});</p>
+  </blockquote></p>
 
-    CSS:
-    <p>#title_caption {
+  <p>CSS:
+  <blockquote>
+    #title_caption {
       position: absolute;
       left: 11.7%;
-    }</p>
+    }
   </blockquote>
+  
 
 Pretty cool, right?
 
