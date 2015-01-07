@@ -1,12 +1,12 @@
 {
   "name": "Percentext",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "homepage": "http://www.percentext.com",
   "authors": [
     "Joshua Comeau <joshwcomeau@gmail.com>"
   ],
   "description": "Set a percentage width for your headers, and Percentext uses font-size and letter-spacing to make it so.",
-  "main": "percentext_1.0.min.js",
+  "main": "percentext_0.0.1.min.js",
   "dependencies": {
     "jquery": ">=1.9.1"
   },
