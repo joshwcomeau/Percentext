@@ -1,17 +1,27 @@
 {
   "name": "Percentext",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "http://www.percentext.com",
   "authors": [
     "Joshua Comeau <joshwcomeau@gmail.com>"
   ],
   "description": "Set a percentage width for your headers, and Percentext uses font-size and letter-spacing to make it so.",
-  "main": "percentext_0.0.1.min.js",
+  "main": "percentext.js",
   "dependencies": {
     "jquery": ">=1.9.1"
   },
   "license": "MIT",
   "ignore": [
     "**/.*"
-  ]
+  ],
+  "keywords": [
+    "jquery",
+    "fittext",
+    "text",
+    "font size"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joshwcomeau/Percentext.git"
+  }
 }
